@@ -32,6 +32,8 @@ tmux
 
     zplug "tranzystorek-io/dotfiles", use:"./zsh/{aliases,ldot}.zsh"
 
+    zplug "~/completion", from:local
+
     zplug load
     ```
 

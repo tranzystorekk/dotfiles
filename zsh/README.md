@@ -12,8 +12,6 @@ Zsh function that lists only hidden files (aka dotfiles) in the given directory.
 
 ## My configuration
 
-Assuming this repo was cloned to `~/repos/dotfiles`:
-
 1. Install
 [zplug](https://github.com/zplug/zplug),
 [fasd](https://github.com/clvv/fasd),
@@ -32,7 +30,7 @@ tmux
 
     zplug "plugins/fasd", from:oh-my-zsh
 
-    zplug "~/repos/dotfiles/zsh", use:"{aliases,ldot}.zsh", from:local
+    zplug "tranzystorek-io/dotfiles", use:"./zsh/{aliases,ldot}.zsh"
 
     zplug load
     ```

@@ -17,10 +17,10 @@ Saner config for git, including:
 
 My neovim configuration. Requires [vim-plug](https://github.com/junegunn/vim-plug) to work.
 
-### tmux.conf :arrow_left: `~/.tmux.conf`
-
-Saner config for tmux.
-
 ### starship.toml :arrow_left: `~/.config/starship.toml`
 
 QoL config for the [Starship prompt](https://starship.rs/).
+
+### tmux.conf :arrow_left: `~/.tmux.conf`
+
+Saner config for tmux.

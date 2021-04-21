@@ -1,7 +1,5 @@
 call plug#begin('~/.local/share/nvim/plugged')
 
-Plug 'dikiaap/minimalist'
-Plug 'morhetz/gruvbox'
 Plug 'srcery-colors/srcery-vim'
 Plug 'itchyny/lightline.vim'
 

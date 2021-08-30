@@ -23,3 +23,4 @@
 
 [alias]
     st = status
+    fa = fetch --all --prune

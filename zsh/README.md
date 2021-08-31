@@ -20,6 +20,8 @@ tmux
 2. Put this config in `.zshrc`:
 
     ```zsh
+    set -o emacs
+
     eval $(starship init zsh)
 
     source ~/.zplug/init.zsh

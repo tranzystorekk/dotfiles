@@ -6,10 +6,6 @@
 
 A handful of most useful aliases.
 
-### [ldot.zsh](ldot.zsh)
-
-Zsh function that lists only hidden files (aka dotfiles) in the given directory.
-
 ## My configuration
 
 1. Install
@@ -32,7 +28,7 @@ tmux
 
     zplug "plugins/fasd", from:oh-my-zsh
 
-    zplug "tranzystorek-io/dotfiles", use:"./zsh/{aliases,ldot}.zsh"
+    zplug "tranzystorek-io/dotfiles", use:"./zsh/aliases.zsh"
 
     zplug "~/completion", from:local
 

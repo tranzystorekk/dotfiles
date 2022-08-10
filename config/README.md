@@ -21,6 +21,10 @@ My neovim configuration. Requires [vim-plug](https://github.com/junegunn/vim-plu
 
 QoL config for the [Starship prompt](https://starship.rs/).
 
+### zellij :arrow_left: `~/.config/zellij`
+
+Zellij configuration.
+
 ### tmux.conf :arrow_left: `~/.tmux.conf`
 
 Saner config for tmux.

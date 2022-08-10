@@ -29,6 +29,10 @@ Zellij configuration.
 
 Helix editor configuration.
 
+### lsd :arrow_left: `~/.config/lsd`
+
+`lsd` (replacement for `ls`) configuration.
+
 ### tmux.conf :arrow_left: `~/.tmux.conf`
 
 Saner config for tmux.

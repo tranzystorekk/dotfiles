@@ -13,7 +13,7 @@ Saner config for git, including:
 * [icdiff](https://www.jefftk.com/icdiff) as a difftool; displays nice split diffs in the command line
 * meld as a mergetool with sane options and diff3 conflict style
 
-### init.vim :arrow_left: `~/.config/nvim/init.vim`
+### nvim :arrow_left: `~/.config/nvim`
 
 My neovim configuration. Requires [vim-plug](https://github.com/junegunn/vim-plug) to work.
 

@@ -31,7 +31,7 @@ Helix editor configuration.
 
 ### lsd :arrow_left: `~/.config/lsd`
 
-`lsd` (replacement for `ls`) configuration.
+`lsd` (replacement for `ls`) configuration. Requires a [nerdfont](https://www.nerdfonts.com/) configured in terminal.
 
 ### tmux.conf :arrow_left: `~/.tmux.conf`
 

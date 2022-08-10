@@ -25,6 +25,10 @@ QoL config for the [Starship prompt](https://starship.rs/).
 
 Zellij configuration.
 
+### helix :arrow_left: `~/.config/helix`
+
+Helix editor configuration.
+
 ### tmux.conf :arrow_left: `~/.tmux.conf`
 
 Saner config for tmux.

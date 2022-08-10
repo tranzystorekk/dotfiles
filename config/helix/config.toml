@@ -1,0 +1,7 @@
+theme = "gruvbox"
+
+[editor.cursor-shape]
+insert = "bar"
+
+[editor]
+true-color = true

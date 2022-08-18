@@ -6,34 +6,38 @@
 
 A handful of most useful aliases.
 
-## My configuration
+## Quick setup
 
 1. Install
-[zplug](https://github.com/zplug/zplug),
-[fasd](https://github.com/clvv/fasd),
+[sheldon](https://github.com/rossmacarthur/sheldon),
 [starship](https://starship.rs/),
-tmux
-2. Put this config in `.zshrc`:
+[zellij](https://github.com/zellij-org/zellij),
+[zoxide](https://github.com/ajeetdsouza/zoxide)
+2. Run these commands to set up sheldon:
+
+    ```console
+    sheldon init --shell zsh
+
+    sheldon add --apply fpath --local ~/completion completion
+    sheldon add --use zsh/aliases.zsh --github tranzystorek-io/dotfiles aliases
+    sheldon add --github yous/vanilli.sh vanilli
+    sheldon add --github tranzystorek-io/zellij-zsh zellij-zsh
+
+    sheldon lock
+    ```
+
+3. Put this config in `.zshrc`:
 
     ```zsh
     set -o emacs
 
-    eval $(starship init zsh)
+    eval "$(starship init zsh)"
 
-    source ~/.zplug/init.zsh
+    eval "$(sheldon -q source)"
 
-    zplug "zpm-zsh/tmux"
+    autoload -U compinit && compinit
 
-    zplug "yous/vanilli.sh"
-
-    zplug "plugins/fasd", from:oh-my-zsh
-
-    zplug "tranzystorek-io/dotfiles", use:"./zsh/aliases.zsh"
-
-    zplug "~/completion", from:local
-
-    zplug load
+    eval "$(zoxide init zsh)"
     ```
 
-3. Run `zplug install`
 4. Restart your shell

@@ -1,7 +1,7 @@
 # common aliases
 
 # directory commands
-alias md="mkdir -p"
+alias md="mkdir -pv"
 alias rd=rmdir
 
 # better ls

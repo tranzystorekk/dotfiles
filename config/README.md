@@ -10,8 +10,8 @@ Files under this directory are dotfiles with various configurations.
 
 Saner config for git, including:
 
-* [icdiff](https://www.jefftk.com/icdiff) as a difftool; displays nice split diffs in the command line
-* meld as a mergetool with sane options and diff3 conflict style
+- [delta](https://github.com/dandavison/delta) as git pager
+- common operations like status, fetch shortened to two letter aliases
 
 ### nvim :arrow_left: `~/.config/nvim`
 

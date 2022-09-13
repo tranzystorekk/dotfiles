@@ -15,15 +15,7 @@
     syntax-theme = Dracula
 
 [merge]
-    tool = meld
     conflictstyle = diff3
-
-[mergetool "meld"]
-    cmd = meld --auto-merge -o "$MERGED" "$LOCAL" "$BASE" "$REMOTE"
-    trustExitCode = true
-
-[mergetool]
-    keepBackup = false
 
 [alias]
     st = status

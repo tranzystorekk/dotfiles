@@ -33,6 +33,10 @@ Helix editor configuration.
 
 `lsd` (replacement for `ls`) configuration. Requires a [nerdfont](https://www.nerdfonts.com/) configured in terminal.
 
+### tealdeer :arrow_left: `~/.config/tealdeer`
+
+`tealdeer` friendlier manpages implementation configuration.
+
 ### tmux.conf :arrow_left: `~/.tmux.conf`
 
 Saner config for tmux.

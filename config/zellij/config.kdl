@@ -1,0 +1,7 @@
+theme "dracula" 
+
+ui {
+    pane_frames {
+        rounded_corners true
+    }
+}
